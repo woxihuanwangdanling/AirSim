@@ -55,6 +55,22 @@ IF NOT EXIST Unreal\Plugins\AirSim\Content\VehicleAdv\SUV\v1.1.7 (
 )
 
 
+
+REM //---------- get Eigen library ----------
+IF NOT EXIST AirLib\deps mkdir AirLib\deps
+IF NOT EXIST AirLib\deps\eigen3 (
+    powershell -command "& { iwr https://github.com/woxihuanwangdanling/AirsimWithVS2017/blob/master/eigen-eigen-da9b4e14c255.rar -OutFile eigen3.zip }"
+    powershell -command "& { Expand-Archive -Path eigen3.zip -DestinationPath AirLib\deps }"
+    move AirLib\deps\eigen* AirLib\deps\del_eigen
+    mkdir AirLib\deps\eigen3
+    move AirLib\deps\del_eigen\Eigen AirLib\deps\eigen3\Eigen
+    rmdir /S /Q AirLib\deps\del_eigen
+    del eigen3.zip
+)
+IF NOT EXIST AirLib\deps\eigen3 goto :buildfailed
+
+
+
 ECHO Starting cmake...
 REM //---------- compile rpclib that we got from git submodule ----------
 IF NOT EXIST external\rpclib\build mkdir external\rpclib\build
