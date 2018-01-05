@@ -4,10 +4,7 @@ setlocal
 set ROOT_DIR=%CD%
 
 REM // Check command line arguments
-set "noFullPolyCar="
-
-if "%1"=="" goto noargs
-if "%1"=="--no-full-poly-car" set "noFullPolyCar=y"
+set "noFullPolyCar=y"
 
 :noargs
 
@@ -59,7 +56,7 @@ IF NOT EXIST Unreal\Plugins\AirSim\Content\VehicleAdv\SUV\v1.1.7 (
 REM //---------- get Eigen library ----------
 IF NOT EXIST AirLib\deps mkdir AirLib\deps
 IF NOT EXIST AirLib\deps\eigen3 (
-    powershell -command "& { iwr https://github.com/woxihuanwangdanling/AirsimWithVS2017/blob/master/eigen-eigen-da9b4e14c255.rar -OutFile eigen3.zip }"
+    powershell -command "& { iwr https://github.com/woxihuanwangdanling/AirsimWithVS2017/raw/master/eigen-eigen-da9b4e14c255.rar -OutFile eigen3.zip }"
     powershell -command "& { Expand-Archive -Path eigen3.zip -DestinationPath AirLib\deps }"
     move AirLib\deps\eigen* AirLib\deps\del_eigen
     mkdir AirLib\deps\eigen3
