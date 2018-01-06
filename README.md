@@ -9,21 +9,17 @@
 	点击重定向
 
 
-![](https://github.com/woxihuanwangdanling/AirsimWithVS2017/releases/download/1.1.7/Image.png)
+![](docs/images/Image.png)
 
 
 
 2.Run Build17.cmd in Native Tools Command Prompt for VS 2017
 2.用Native Tools Command Prompt运行build17.cmd
-![](https://github.com/woxihuanwangdanling/AirsimWithVS2017/releases/download/1.1.7/Nvs.png)
+![](docs/images/Nvs.png)
 
-![](https://github.com/woxihuanwangdanling/AirsimWithVS2017/releases/download/1.1.7/QQ.20180106094620.png) 
+![](docs/images/QQ截图20180106094620.png) 
 
-![](https://github.com/woxihuanwangdanling/AirsimWithVS2017/releases/download/1.1.7/LY2OA24PY1VV.T.2.R7.F4.png)
-
-
-
-
+![](docs/images/LY2OA24PY1VV%T`2{}R7`F4.png)
 
 
 
