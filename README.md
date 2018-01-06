@@ -1,10 +1,12 @@
 0.Update your VS、cmake、powershell、MSBuild(VS2017---Tools----get tools） ....
+
 0.更新所有必备软件(VS2017---工具----获取工具）
 
 
 
 1.Open   Airsim.sln  in VS2017
 	Click Redirect
+
 1.用VS2017打开 Airsim.sln
 	点击重定向
 
@@ -14,6 +16,7 @@
 
 
 2.Run Build17.cmd in Native Tools Command Prompt for VS 2017
+
 2.用Native Tools Command Prompt运行build17.cmd
 ![](docs/images/Nvs.png)
 
