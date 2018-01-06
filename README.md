@@ -18,11 +18,12 @@
 2.Run Build17.cmd in Native Tools Command Prompt for VS 2017
 
 2.用Native Tools Command Prompt运行build17.cmd
+
 ![](docs/images/Nvs.png)
 
 ![](docs/images/QQ截图20180106094620.png) 
 
-![](docs/images/LY2OA24PY1VV%T`2{}R7`F4.png)
+![](docs/images/VS17Result.png)
 
 
 
