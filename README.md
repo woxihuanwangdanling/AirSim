@@ -1,3 +1,42 @@
+0.Update your VS、cmake、powershell、MSBuild(VS2017---Tools----get tools） ....
+0.更新所有必备软件(VS2017---工具----获取工具）
+
+
+
+1.Open   Airsim.sln  in VS2017
+	Click Redirect
+1.用VS2017打开 Airsim.sln
+	点击重定向
+
+
+![](https://github.com/woxihuanwangdanling/AirsimWithVS2017/releases/download/1.1.7/Image.png)
+
+
+
+2.Run Build17.cmd in Native Tools Command Prompt for VS 2017
+2.用Native Tools Command Prompt运行build17.cmd
+![](https://github.com/woxihuanwangdanling/AirsimWithVS2017/releases/download/1.1.7/Nvs.png)
+
+![](https://github.com/woxihuanwangdanling/AirsimWithVS2017/releases/download/1.1.7/QQ.20180106094620.png) 
+
+![](https://github.com/woxihuanwangdanling/AirsimWithVS2017/releases/download/1.1.7/LY2OA24PY1VV.T.2.R7.F4.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Welcome to AirSim
 
 AirSim is a simulator for drones, cars and more built on Unreal Engine. It is open-source, cross platform and supports hardware-in-loop with popular flight controllers such as PX4 for physically and visually realistic simulations. It is developed as an Unreal plugin that can simply be dropped in to any Unreal environment you want.
