@@ -5,7 +5,7 @@
 
 
 1.Open   Airsim.sln  in VS2017
-	Click Redirect
+	Click Redirect(Retarget)
 
 1.用VS2017打开 Airsim.sln
 	点击重定向
